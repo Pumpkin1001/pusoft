@@ -207,6 +207,6 @@ def cmd():
     while 1:
         ins = input("*请输入指令:")
         if ins == "exit":
-            exit()
+            break
         else:
             print(command(ins))
